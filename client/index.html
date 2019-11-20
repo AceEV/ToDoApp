@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>ToDo</title>
+        <link rel="stylesheet" type="text/css" href="styles/skeleton.css">
+        <link rel="stylesheet" type="text/css" href="styles/mystyles.css">
+    </head>
+
+    <body>
+        <h1 style="text-align: center;">This is a ToDo App</h1>
+        <div style="width: 50%; margin: 0 auto;">
+            <form>
+                <div class="row">
+                        Title : <input type="text" name="todo_title" id="todo_title" class="u-full-width">
+                </div>
+                <div class="row">
+                    Details : <textarea type="text" name="todo_desc" id="todo_desc" class="u-full-width"></textarea>
+                </div>
+                <div class="row">
+                    Date : <input type="date" name="todo_date" id="todo_date" class="u-full-width">
+                </div>
+                <button class="button-primary">Yo</button>
+            </form>
+        </div>
+
+        <label for="tasks" style="width: 50%; margin: 0 auto; text-align: center;">Pending Tasks</label>
+        <div name="tasks" id="tasks" style="width: 50%; margin: 0 auto; text-align: center; font-size: x-small;"></div>
+        <label for="completedTasks" style="width: 50%; margin: 0 auto; text-align: center;">Completed Tasks</label>
+        <div name="completedTasks" id="completedTasks" style="width: 50%; margin: 0 auto; text-align: center; font-size: x-small;"></div>
+        <script src="client.js"></script>
+    </body>
+</html>

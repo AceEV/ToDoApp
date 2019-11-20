@@ -1,0 +1,5 @@
+table, tr, th, td{
+  text-align: center;
+  font-size: small;
+  border: 1px solid black;
+}
